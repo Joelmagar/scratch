@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+span{
+    color: blue;
+}
+div{
+    color:white ;
+}
+p{
+    font-weight: bold ;
+    background-color: black;
+    font-size: large;
+    border:2px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+}

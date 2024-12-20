@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(164, 164, 223);
+    text-align: center;
+    background-image: url(picture.webp);
+    background-size: cover;
+      border: 2px solid black;
+      margin-top: 200px;
+      margin-bottom:200px;
+      margin-right: 500px;
+      margin-left: 500px;
+      
+    
+
+  }
+  
+  h1 {
+    border-bottom: 4px solid black;
+    color: black;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  div {
+    font-size: large;
+   
+    color:black;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+  #submit{
+    
+    font-size: large;
+
+
+  }
+
+  

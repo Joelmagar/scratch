@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>score board</title>
+    <link rel="stylesheet" href="ball.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ok"> 
+            <h3 style="color:aliceblue" id="home"> Home</h3> 
+            <h1 id="score1">0</h1>
+
+            <button onclick="one1()">+1</button>
+            <button onclick="one2()">+2</button>
+            <button onclick="one3()">+3</button>
+            
+        </div>
+        <div class="ok1">
+            <h3 style="color:aliceblue" id="away"> Away</h3>
+            <h1 id="score2">0</h1>
+            
+            <button onclick="two1()">+1</button>
+            <button onclick="two2()">+2</button>
+            <button onclick="two3()">+3</button>
+            
+        </div>
+    </div>
+    <button id="reset" onclick="refresh()">Reset</button>
+   <p id="score3">0:0</p>
+
+    <script src="ball.js"></script>
+</body>
+</html>

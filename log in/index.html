@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet", href="index.css",type="text/css">
+</head>
+
+  
+<h1 >Please login</h1>
+
+    <body>
+        <form action=""name="myform"onsubmit="return validate()">
+            <input type="text" name="username"placeholder="username"><br>
+            <input type="password" name="password"placeholder="password">
+            <div>
+                <input type="radio" name="role"/>admin
+                <input type="radio" name="role"/>user
+                
+            </div>
+        
+                <div><input type="checkbox"name="flag"value="true"/>
+            Agree to all terms and conditions</div>
+            <input id="submit" type="submit"value="login">
+        </form>
+        <script>
+            function validate()
+            {
+                let a=document.myform.username.value;
+                let b=document.myform.password.value;
+            if(a=="")
+            {
+                alert("username must be entered");
+                return false;
+            }
+            else if(b=="")
+            {
+                alert("password must be entered");
+                return false;	
+                    }
+                    else if(b.length<4)
+                    {
+                        alert("password must be more than four characters");
+                        return false;
+                    }
+            }
+    
+        </script>
+    
+    <script src="index.js">
+
+    </script>
+    
+</body>
+</html>
+ 

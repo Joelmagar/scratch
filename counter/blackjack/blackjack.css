@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top:100px;
+    margin-bottom: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 100px;
+
+}
+h1{
+    font-weight: bold;
+    color:goldenrod;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+div{
+    background-image: url(blackjk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    padding-bottom: 5px;
+    
+}
+mark{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+}
+button{
+    color:green;
+    font-size: large;
+    background-color: goldenrod;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#new{
+    color:green;
+    font-size: large;
+    background-color: goldenrod;
+}
